@@ -6,14 +6,13 @@ This folder contains the exact static prototype source for the Resource Update A
 
 - `index.html`: full single-page prototype, including all screens, styling and interactions.
 - `assets/pl-toolbar-rail.png`: Practical Law document toolbar image used by the document view.
-- `server.js`: optional local static server.
-- `package.json`: local preview scripts.
+- `package.json`: project metadata.
 - `vercel.json`: Vercel static deployment headers.
 
 ## Local Preview
 
 ```bash
-npm run dev -- --host 127.0.0.1 --port 4176
+python3 -m http.server 4176
 ```
 
 Then open:

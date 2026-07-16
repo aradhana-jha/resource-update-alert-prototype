@@ -12,7 +12,7 @@ Requirements:
 - Preserve the consumer-facing Practical Law document view opened from the subscriber alert preview.
 - Preserve the high-confidence duplicate behavior: the merged alert draft is read-only by default, `Edit draft` unlocks the title/body, `Done editing` locks them again, `Unmerge alert` remains available, and the subscriber preview shows both related resources as plain links with no internal labels.
 - Preserve hash-based routes such as `#search`, `#auto-merge`, `#email`, and `#document-focus`.
-- Deploy as a static site with `index.html` at the root and `assets/pl-toolbar-rail.png` available at `/assets/pl-toolbar-rail.png`.
+- Deploy as a static site with `index.html` at the root and `assets/pl-toolbar-rail.png` available at `/assets/pl-toolbar-rail.png`. Do not add a server entrypoint.
 
 Final journey URL after deployment should be:
 
