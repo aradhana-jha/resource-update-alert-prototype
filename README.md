@@ -6,7 +6,6 @@ This folder contains the exact static prototype source for the Resource Update A
 
 - `index.html`: full single-page prototype, including all screens, styling and interactions.
 - `assets/pl-toolbar-rail.png`: Practical Law document toolbar image used by the document view.
-- `package.json`: project metadata.
 - `vercel.json`: Vercel static deployment headers.
 
 ## Local Preview

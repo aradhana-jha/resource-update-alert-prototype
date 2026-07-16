@@ -10,7 +10,6 @@ That zip contains everything needed to recreate the prototype:
 
 - `index.html`
 - `assets/pl-toolbar-rail.png`
-- `package.json`
 - `vercel.json`
 - `README.md`
 - `VERCEL_RECREATE_PROMPT.md`
